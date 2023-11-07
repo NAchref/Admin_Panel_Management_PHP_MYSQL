@@ -88,7 +88,7 @@ INSERT INTO `tbl_users` (`id`, `name`, `username`, `email`, `password`, `mobile`
 (24, 'ahmed', 'benahmed', 'achme@gmail.com', sha1('Achref1'), '54277528', 3, 0, '2020-12-19 15:13:39', '2020-12-19 15:13:39'),
 (25, 'Fathi', 'fathiA', 'fathianh@gmail.com', sha1('Achref1'), '54672828', 3, 0, '2020-12-19 15:15:52', '2020-12-19 15:15:52'),
 (26, 'Makrem', 'makrem', 'makrem@gmail.com', sha1('Achref1'), '42551771', 3, 0, '2020-12-19 15:16:59', '2020-12-19 15:16:59'),
-(27, 'Sirin', 'Sirin', 'Sirin@gmail.com', sha1('Achref1'), '23451671', 3, 0, '2020-12-19 15:17:34', '2020-12-19 15:17:34');
+(27, 'Sirin', 'Sirin', 'Sirin@gmail.com', sha1('Achref1'), '23451671', 2, 0, '2020-12-19 15:17:34', '2020-12-19 15:17:34');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
