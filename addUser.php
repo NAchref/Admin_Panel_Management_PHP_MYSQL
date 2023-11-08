@@ -2,7 +2,7 @@
 include 'inc/header.php';
 Session::CheckSession();
 $sId =  Session::get('roleid');
-if ($sId === '1') { ?>
+if ($sId === 1) { ?>
 
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['addUser'])) {
